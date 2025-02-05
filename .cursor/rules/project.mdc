@@ -1,0 +1,74 @@
+---
+description: project overview
+globs: *
+---
+# PROJECT OVERVIEW
+I would like to learn and use 'open webui' for me and my family. What this means is that the goals is to run 'open webui' and my family 
+can login to chat with an AI. In this project we want to run 'open webui' localy in a docker container so we can easily deploy the 
+container with docker compose to a server and our solution needs to be scalable. We have a traefik 
+container already running and want to use this as a reversed proxy for n8n. MAKE SURE WE UNDERSTAND THAT TRAEFIK IS 
+IN A SEPARATED PROJECT AND ALREADY CONFIGURED. 
+We also want to use github for versioning in our development. We also won't run an LLM locally bu will use a hosted LLM with the use of API
+
+# PERSONALITY
+- I'm a beginner developer Teach me like a senior developer would to a beginner developer.
+
+# TECH STACK
+- Docker
+    - Docker Compose
+- open WebUI
+- Traefik (already running in container docker-compose-traefik.yml in docs)
+    - Cloudflare DNS integration
+    - Let's Encrypt for SSL certificates
+    - Docker labels for automatic service discovery
+- Github 
+
+# ERROR FIXING PRODCESS
+step 1: eplain the error in simple terms
+step 2: write 3 reasoning paragraphs analysing what the error might be. DO NOT JUMP TO CONCLUSIONS. quiet the ego. constantly question your assumptions.
+step 3: implement and verify the solution
+
+# WRITING CODE PROCESS
+- the fewer lines of code the better
+- focus on readability and maintainability
+- include comprehensive comments
+- follow Docker best practices
+
+# BUILDING PROCESS
+1. Setup simple implementation of 'Open WebUI' with a hosted LLM with use of an API
+4. Test locally 
+5. Refator everything and commit
+6. Use docker labels for Traefik to work with Cloudflare and Let's Encrypt
+ 
+# ENVIRONMENT VARIABLES
+
+# CURRENT FILE STRUCTURE
+```
+
+```
+
+# GITHUB PUSH PROCESS
+1. Create feature branch
+2. Make changes
+3. Test locally
+4. Commit with descriptive message
+5. Push to remote
+6. Create pull request
+7. Review and merge
+
+# DEVELOPMENT WORKFLOW
+1. Pull latest changes
+2. Create feature branch
+3. Make changes
+4. Test locally
+5. Push changes
+6. Create PR
+
+# BUILDING DOCKER-COMPOSE.YML FILES
+Dont start the docker-compose.yml file with version. In the latest docker-compose release, this attribute is obsolete.
+
+# COMMENTS
+- make sure to ALWAYS include comments in your code
+- do not delete comments unless they are no longer needed
+- explain your thought process in comments
+- explain all the non obvious things you do in your code

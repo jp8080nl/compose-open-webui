@@ -1,0 +1,9 @@
+# Environment variables
+.env
+
+# Config files that might contain sensitive data
+config/*
+
+# OS files
+.DS_Store
+Thumbs.db 

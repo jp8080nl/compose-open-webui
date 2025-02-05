@@ -1,6 +1,6 @@
-# Open WebUI with Claude
+# Open WebUI
 
-A containerized setup of Open WebUI integrated with Claude 3.5 via API, running behind Traefik reverse proxy.
+A containerized setup of Open WebUI, running behind Traefik reverse proxy.
 
 ## Overview
 The setup includes:

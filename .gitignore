@@ -9,3 +9,6 @@ config/*
 Thumbs.db 
 
 docs/*
+
+# IDE files
+.cursor/
